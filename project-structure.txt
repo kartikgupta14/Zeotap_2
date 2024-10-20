@@ -1,0 +1,41 @@
+weather-monitor/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── __init__.py
+│   ├── collectors/
+│   │   ├── __init__.py
+│   │   └── weather_collector.py
+│   ├── processors/
+│   │   ├── __init__.py
+│   │   └── data_processor.py
+│   ├── storage/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   └── database.py
+│   ├── visualization/
+│   │   ├── __init__.py
+│   │   └── dashboard.py
+│   └── alerts/
+│       ├── __init__.py
+│       └── alert_manager.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_collector.py
+│   ├── test_processor.py
+│   └── test_alerts.py
+├── config/
+│   ├── __init__.py
+│   ├── settings.py
+│   └── logging_config.py
+├── docker/
+│   ├── Dockerfile
+│   └── docker-compose.yml
+├── .gitignore
+├── .env.example
+├── requirements.txt
+├── requirements-dev.txt
+├── setup.py
+├── README.md
+└── LICENSE
